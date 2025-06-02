@@ -1,0 +1,15 @@
+meta {
+  name: item
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://{{server}}:{{port}}/items/3?q=patata
+  body: none
+  auth: inherit
+}
+
+params:query {
+  q: patata
+}

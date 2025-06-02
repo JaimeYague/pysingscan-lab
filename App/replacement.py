@@ -1,6 +1,6 @@
 contador = 0
 
-def servidor(input:str):
+def replace(input:str):
     global contador
 
     contador += 1
